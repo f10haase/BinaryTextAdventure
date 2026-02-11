@@ -1,0 +1,234 @@
+Ereignis {
+    schluesselwort: Erwachen im Nebelschloss
+    text: Du erwachst auf kaltem Stein.\Nebel liegt schwer in der Luft, und das Schloss um dich herum scheint uralt und lebendig zugleich.\Jeder Atemzug hallt leise wider, als würde das Gemäuer lauschen.\Instinktiv weißt du, dass jede Entscheidung dein Schicksal formen wird.
+    bild {
+####################################
+#                                  #
+#              O                   #
+#             /|\                  #
+#             / \                  #
+#                                  #
+####################################
+    }
+    sound: 
+AntwortEins {
+    text: In die große Halle treten
+}
+AntwortZwei {
+    text: Die schmale Treppe hinabsteigen
+}
+}
+
+Ereignis {
+    schluesselwort: Große Halle
+    text: Die Halle öffnet sich vor dir wie der Bauch eines Ungeheuers.\Hohe Säulen, zerrissene Banner und der Geruch von Staub und alten Schlachten umgeben dich.\Zwei Wege zeichnen sich klar ab.
+    bild {
+####################################
+#   ||        O        ||          #
+#   ||       /|\       ||          #
+#            / \                   #
+####################################
+    }
+    sound: 
+AntwortEins {
+    text: Das linke Tor öffnen
+}
+AntwortZwei {
+    text: Dem rechten Gang folgen
+}
+}
+
+Ereignis {
+    schluesselwort: Schmale Treppe
+    text: Die Treppe führt spiralförmig nach unten.\Die Luft wird kälter, und ein fernes Tropfen begleitet jeden deiner Schritte.\Unten warten zwei neue Möglichkeiten.
+    bild {
+####################################
+#        ######                    #
+#           O                      #
+#          /|\                     #
+#          / \                     #
+####################################
+    }
+    sound: 
+AntwortEins {
+    text: In den feuchten Keller gehen
+}
+AntwortZwei {
+    text: Einen dunklen Tunnel betreten
+}
+}
+
+Ereignis {
+    schluesselwort: Linkes Tor
+    text: Hinter dem Tor liegt eine Bibliothek voller zerfallener Bücher.\Wissen und Gefahr liegen hier dicht beieinander.
+    bild {
+####################################
+#    ||||||||||                    #
+#        O                         #
+#       /|\                        #
+#       / \                        #
+####################################
+    }
+    sound: 
+AntwortEins {
+    text: Ein Buch aufschlagen
+}
+AntwortZwei {
+    text: Die Regale durchsuchen
+}
+}
+
+Ereignis {
+    schluesselwort: Rechter Gang
+    text: Der Gang führt zu einer Waffenkammer.\Rostige Klingen liegen verstreut, doch zwei Wege führen weiter.
+    bild {
+####################################
+#    ////    O                     #
+#           /|\                    #
+#           / \                    #
+####################################
+    }
+    sound: 
+AntwortEins {
+    text: Eine alte Klinge aufnehmen
+}
+AntwortZwei {
+    text: Den Gang weiter entlanggehen
+}
+}
+
+Ereignis {
+    schluesselwort: Feuchter Keller
+    text: Wasser steht knöcheltief.\Du hörst etwas im Dunkeln lauern.\Zwei Pfade zeichnen sich ab.
+    bild {
+####################################
+#    ~~~~~~                        #
+#        O                         #
+#       /|\                        #
+#       / \                        #
+####################################
+    }
+    sound: 
+AntwortEins {
+    text: Dem Geräusch folgen
+}
+AntwortZwei {
+    text: Schnell zurückgehen
+}
+}
+
+Ereignis {
+    schluesselwort: Dunkler Tunnel
+    text: Der Tunnel ist eng und stickig.\Zwei Öffnungen führen weiter, jede in völlige Dunkelheit.
+    bild {
+####################################
+#      ###     ###                 #
+#          O                       #
+#         /|\                      #
+#         / \                      #
+####################################
+    }
+    sound: 
+AntwortEins {
+    text: Die linke Öffnung wählen
+}
+AntwortZwei {
+    text: Die rechte Öffnung wählen
+}
+}
+
+Ende {
+    schluesselwort: Wissen Wahnsinn
+    text: Das Buch flüstert verbotene Geheimnisse.\Dein Verstand zerbricht, und du sinkst wahnsinnig zu Boden.
+    bild {
+####################################
+#          X                       #
+#         /|\                      #
+#         / \                      #
+####################################
+    }
+    sound: 
+}
+
+Ende {
+    schluesselwort: Verborgener Ausgang
+    text: Hinter den Regalen findest du einen geheimen Ausgang.\Du entkommst dem Schloss.
+    bild {
+####################################
+#          O                       #
+#         /|\                      #
+#         / \                      #
+####################################
+    }
+    sound: 
+}
+
+Ende {
+    schluesselwort: Verfluchte Klinge
+    text: Die Klinge verflucht dich.\Ein schwarzer Nebel raubt dir das Leben.
+    bild {
+####################################
+#          X                       #
+####################################
+    }
+    sound: 
+}
+
+Ende {
+    schluesselwort: Wächter Tod
+    text: Ein verborgener Wächter überrascht dich.\Er tötet dich im Handumdrehen.
+    bild {
+####################################
+#          X                       #
+####################################
+    }
+    sound: 
+}
+
+Ende {
+    schluesselwort: Keller Bestie
+    text: Eine Kreatur aus dem Wasser reißt dich in die Tiefe.\Alles endet hier.
+    bild {
+####################################
+#          X                       #
+####################################
+    }
+    sound: 
+}
+
+Ende {
+    schluesselwort: Rückzug gelingt
+    text: Du entkommst aus dem Keller.\Später findest du einen Ausgang ins Freie.
+    bild {
+####################################
+#          O                       #
+#         /|\                      #
+#         / \                      #
+####################################
+    }
+    sound: 
+}
+
+Ende {
+    schluesselwort: Linke Öffnung Tod
+    text: Die Öffnung endet im Abgrund.\Du stürzt und stirbst.
+    bild {
+####################################
+#          X                       #
+####################################
+    }
+    sound: 
+}
+
+Ende {
+    schluesselwort: Rechte Öffnung Freiheit
+    text: Die Öffnung führt ins Freie.\Du bist frei.
+    bild {
+####################################
+#          O                       #
+#         /|\                      #
+#         / \                      #
+####################################
+    }
+    sound: 
+}
