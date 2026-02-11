@@ -14,7 +14,9 @@ Einfach die TextAdventure Klasse starten.
 
 ## Wie kann ich BinaryTextAdventure schulisch einbinden? 
 Didaktische Schwerpunkte sind/können sein:
-- Exception Handling
+- Implementierungen mit der Klasse BinaryTree
+- Rekursion mit dem BinaryTree - ggf. auch Traversierungsarten
+- Exception Handling und try-catch-finally-Blöcke
 - ENUM
 - Interfaces
 - Abstrakte Klassen
